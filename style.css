@@ -41,11 +41,13 @@ body {
 
 .main {
 	width: 80%;
-	min-height: 70%;
+	min-height: 60%;
+	max-width: 900px;
+	max-height: 800px;
 	border-radius: 1rem;
 	background-color: rgba(55, 55, 55, 0.64);
 	position: absolute;
-	top: 45%;
+	top: 46%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }

@@ -1,0 +1,125 @@
+:root{
+	/*color*/
+	--color-yellow: #F6E5B1;
+	--color-white: #E9E9E9;
+	--color-border: #555555;
+	--color-font: #373737;
+	
+	/*font size*/
+	--font-super: 3.2rem;
+	--font-large: 1.8rem;
+	--font-medium: 1.5rem;
+	--font-small: 1.2rem;
+	--font-micro: 1rem;
+
+	/*media size*/
+	--max-size:900px;
+}
+
+@font-face {
+	font-family: 'Gangwon Bold';
+	src: url('./assets/font/강원교육튼튼.woff') format("woff");
+}
+@font-face {
+	font-family: 'MaruBuri SemiBold';
+	src: url('./assets/font/MaruBuri-SemiBold.woff') format("woff");
+}
+
+* {
+		box-sizing: border-box;
+		font-family: "Nanum Gothic", sans-serif;
+}
+
+body {
+	height: 100vh;
+	background-image: url( "./assets/img/bg.png" );
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-position: center;
+	animation: fadeIn 0.5s linear;
+}
+
+.main {
+	width: 80%;
+	min-height: 70%;
+	border-radius: 1rem;
+	background-color: rgba(55, 55, 55, 0.64);
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.title--primary {
+	font-family: "Gangwon Bold", sans-serif;
+	font-size: var(--font-super);
+	color: white;
+	margin-bottom: 0.5rem;
+}
+
+.title--sub-y {
+	font-family: "MaruBuri SemiBold", sans-serif;
+	font-size: var(--font-large);
+	font-weight: 300;
+	color: var(--color-yellow);
+	margin-bottom: 0.5rem;
+}
+
+.title--sub-w {
+	margin-bottom: 0.5rem;
+	font-size: var(--font-medium);
+	color: var(--color-white);
+}
+
+.btn {
+	border-radius: 25px;
+	border: 0;
+	cursor: pointer;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	background-color: #F6E5B1;
+	color: #373737;
+	text-align: center;
+	width: 100%;
+}
+
+.btn:hover{
+	opacity: 0.8;
+	transform: translate(0, -5%);
+}
+
+.btn--sub {
+	font-size: var(--font-micro);
+	font-weight: 600;
+}
+
+.btn--primary {
+	font-family: "Gangwon Bold", sans-serif;
+	font-size: var(--font-large);
+	font-weight: 900;
+}
+
+.status {
+	font-size: 1.1rem;
+	font-weight: 600;
+	border-radius: 25px;
+	background-color: #E9E9E9;
+	color: #373737;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	width:10rem;
+	text-align: center;
+}
+
+.strong {
+	font-size: 1.4em;
+	color: var(--color-yellow);
+	font-weight: 700;
+}
+
+@media(min-width: 900px) {
+	html {
+		font-size: 13px;
+	}
+}

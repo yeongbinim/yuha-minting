@@ -90,7 +90,7 @@ body {
 }
 
 .btn--sub {
-	font-size: var(--font-micro);
+	font-size: var(--font-small);
 	font-weight: 600;
 }
 
@@ -102,13 +102,11 @@ body {
 
 .status {
 	font-size: 1.1rem;
-	font-weight: 600;
+	font-weight: 700;
+	color: var(--color-font);
 	border-radius: 25px;
 	background-color: #E9E9E9;
-	color: #373737;
-	padding-top: 0.6rem;
-	padding-bottom: 0.6rem;
-	width:10rem;
+	padding: 0.6rem 1rem;
 	text-align: center;
 }
 
@@ -116,6 +114,11 @@ body {
 	font-size: 1.4em;
 	color: var(--color-yellow);
 	font-weight: 700;
+}
+
+.logo {
+	width: 2em;
+	height: 2em;
 }
 
 @media(min-width: 900px) {

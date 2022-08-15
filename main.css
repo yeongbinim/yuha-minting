@@ -19,52 +19,52 @@
 	padding: 1rem;
 }
 
-.article{
+.service{
 	width: 100%;
 	padding: 1rem;
 }
-.article > *:nth-child(n + 2) {
+.service > *:nth-child(n + 2) {
 	margin-top: 1rem;
 }
-.article__block {
+.service__block {
 	margin-bottom: 2rem;
 }
 
-/* left article */
-.article__input {
+/* left service */
+.service__input {
 	font-size: var(--font-medium);
 	font-weight: 800;
 }
-.article__input:before{
+.service__input:before{
 	content: "#";
 	margin-left: 1rem;
 }
-.article__input--w {
+.service__input--w {
 	color:var(--color-white);
 }
-.article__input--y {
+.service__input--y {
 	color:var(--color-yellow);
 }
-.article__btn-block {
+.service__btn-block {
 	display: flex;
 }
-.article__btn-block > .btn:nth-child(n + 2) {
+.service__btn-block > .btn:nth-child(n + 2) {
 	margin-left: 1rem;
 }
-.article__block--input > * {
+.service__block--input > * {
 	margin-bottom: 2.1rem;
 }
 
-/* right article */
-.article__alert {
+/* right service */
+.service__alert {
 	color: var(--color-white);
 	text-align: center;
 }
-.article__alert--price{
+.service__alert--price{
 	font-size: var(--font-large);
 	font-weight: 700;
 }
-.article__alert--price::before{
+.service__alert--price::before{
 	content:"";
 	background-image: url("./assets/img/logo.png");
 	background-size: 1em 1em;
@@ -73,15 +73,15 @@
 	display:inline-block;
 	margin-right: 0.5rem;
 }
-.article__alert--price::after{
+.service__alert--price::after{
 	content: "KLAY";
 	margin-left: 0.5rem;
 }
-.article__alert--amount{
+.service__alert--amount{
 	font-size: var(--font-micro);
 	font-weight: 400;
 }
-.article__paragraph {
+.service__paragraph {
 	color: var(--color-white);
 	font-size: var(--font-micro);
 	font-weight: 300;

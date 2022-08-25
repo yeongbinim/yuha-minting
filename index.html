@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,12 @@
 	<link href="./assets/img/logo.ico" rel="shortcut icon" type="image/x-icon">
 	<title>Minting</title>
 </head>
+
 <body>
 	<main class="main">
 		<header class="header">
 			<h1 class="header__title title--primary">MINTING GAME</h1>
-			<div class="status">@ Connect Wallet OFF</div>
+			<button class="btn btn--status">Connect Wallet OFF</button>
 		</header>
 		<section class="container-flex">
 			<div class="service">
@@ -39,21 +41,29 @@
 				</div>
 			</div>
 			<div class="service">
-				<div class="service__block">
-					<h2 class="title--sub-y">Price</h2>
-					<div class="service__alert service__alert--price">1</div>
+				<div>
+					<div class="service__block">
+						<h2 class="title--sub-y">Price</h2>
+						<div class="service__alert service__alert--price">1</div>
+					</div>
+					<br/>
+					<div class="service__block">
+						<h2 class="title--sub-y">Amount</h2>
+						<br />
+						<div class="service__alert service__alert--amount">민팅 수량은 <strong class="strong">1개</strong>로 고정되어 있습니다.
+						</div>
+					</div>
 				</div>
-				<div class="service__block">
-					<h2 class="title--sub-y">Amount</h2>
-					<br />
-					<div class="service__alert service__alert--amount">민팅 수량은 <strong class="strong">1개</strong>로 고정되어 있습니다.</div>
+				<div>
+					<p class="service__paragraph">
+						민팅은 새로고침 없이 진행됩니다.
+					</p>
+					<br/>
+					<button class="btn btn--primary">MINTING</button>
 				</div>
-				<p class="service__paragraph">
-					민팅은 새로고침 없이 진행됩니다.
-				</p>
-				<button class="btn btn--primary">MINTING</button>
 			</div>
 		</section>
 	</main>
 </body>
+
 </html>
